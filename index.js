@@ -71,8 +71,23 @@ var x = Celsius(68);
 
 alert("a temperatura é de " + x + " graus Celsiys");
 
-//objetos
+//objetos são muito uteis para colocar coleçoes/ conjuto de informaçoes dentro de uma variavel só, ou funçoes dentro de um onjeto
 
+const carro = {
+    marca:"ford",
+    modelo:"ka",
+    ano:2015,
+    placa:"abc1234",
+    //metodo:
+    buzina: function() {alert("biiiiiiiiiii")},
+    completo: function(){
+        return "a marca é " +this.marca+ " e o modelo é: " +this.modelo;
+    }
+};
 
-
+//pode ser passado o metodo do objeto atraves de []
+//para chamar a funçao objeto.funçao
+console.log(carro.ano);
+carro.buzina();
+console.log(carro.completo());
 
