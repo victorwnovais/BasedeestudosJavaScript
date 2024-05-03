@@ -31,6 +31,7 @@ var b=3;
 var c=a+b;
 alert("a soma das variaveis é: " + c)
 
+
 nome="Jóse";
 sobrenome="Pereira"
 nomeCompleto= nome+" "+sobrenome
@@ -90,4 +91,50 @@ const carro = {
 console.log(carro.ano);
 carro.buzina();
 console.log(carro.completo());
+
+/* Eventos
+
+onclick - disparado quando recebe um click
+onblclick - click duplo
+onmouseover - quando o mouse esta sobre
+onmouseout - quando sai do elemento
+onmousemove - quando o mouse é movido no elemento
+onmousedown - quando foi precionado
+onmouseup - quando o click do botao é solto
+onfocus - quando o elemento recebe o foco, ex: input
+onchange - quando muda o conteudo
+onblue - quando perde o foco
+onkeydown - quando apertar uma tecla
+onkeypress- quando apertar a tecla e soltar
+onkeyup - quando solta uma tecla
+onload - quando uma pagina termina de carregar
+onresize - quando redimensionada da tela
+*/
+
+function eventoClick(){
+    alert("Acionou um evento de click"); 
+}
+ 
+function eventodbl(){
+    document.body.style.backgroundColor="rgb(255, 255, 123)";
+} 
+
+function movemouse(){
+    document.body.style.backgroundColor="white";
+}
+
+/*onmouseover
+onmouseout 
+
+onmousedown
+onmouseup
+onfocus
+onchange
+onblur 
+onkeydown
+onkeypress
+onkeyup 
+onload 
+onresize*/
+
 
